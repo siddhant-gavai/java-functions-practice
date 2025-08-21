@@ -1,4 +1,5 @@
 public class factorial {
+    // Recursive method to calculate factorial
     public static int factorial(int n) {
         if (n == 0 || n == 1) {
             return 1;
@@ -6,6 +7,7 @@ public class factorial {
         return n * factorial(n - 1);
     }
 
+    // Iterative method to calculate factorial
     public static int factorial2(int n) {
         int f = 1;
         for (int i = 2; i <= n; i++) {
